@@ -16,9 +16,10 @@ from employee_details import views
 
 urlpatterns = [
     path('', views.employee_list, name='employee_list'),
-    path('view/<int:pk>', views.employee_view, name='employee_view'),
+    path('view/<int:pk>/', views.employee_view, name='employee_view'),
     path('new/', views.employee_create, name='employee_new'),
-    path('edit/<int:pk>', views.employee_update, name='employee_edit'),
-    path('delete/<int:pk>', views.employee_delete, name='employee_delete')
+    path('edit/<int:pk>/', views.employee_update, name='employee_edit'),
+    path('delete/<int:pk>/', views.employee_delete, name='employee_delete')
 
 ]
+

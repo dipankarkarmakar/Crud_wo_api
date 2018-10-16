@@ -38,17 +38,20 @@ from django.views.decorators.csrf import csrf_exempt
 
 from .models import Employee
 
+@csrf_exempt
 class EmployeeForm(ModelForm):
     class Meta:
         model = Employee
         fields = ['name', 'employee_id', 'email']
 
+@csrf_exempt
 def employee_list(request, template_name='employee_details/employee_list.html'):
     employee = Employee.objects.all()
     data = {}
     data['object_list'] = employee
     return render(request, template_name, data)
 
+@csrf_exempt
 def employee_view(request, pk, template_name='employee_details/employee_detail.html'):
     employee= get_object_or_404(Employee, pk=pk)
     return render(request, template_name, {'object':employee})
@@ -61,6 +64,7 @@ def employee_create(request, template_name='employee_details/employee_form.html'
         return redirect('employee_list')
     return render(request, template_name, {'form':form})
 
+@csrf_exempt
 def employee_update(request, pk, template_name='employee_details/employee_form.html'):
     employee= get_object_or_404(Employee, pk=pk)
     form = EmployeeForm(request.POST or None, instance=employee)
@@ -69,6 +73,7 @@ def employee_update(request, pk, template_name='employee_details/employee_form.h
         return redirect('employee_list')
     return render(request, template_name, {'form':form})
 
+@csrf_exempt
 def employee_delete(request, pk, template_name='employee_details/employee_confirm_delete.html'):
     employee= get_object_or_404(Employee, pk=pk)
     if request.method=='POST':

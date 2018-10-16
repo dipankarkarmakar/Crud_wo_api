@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="facdea5c-d14b-4536-97a4-2af55d40484e" name="Default Changelist" comment="" />
+    <list default="true" id="facdea5c-d14b-4536-97a4-2af55d40484e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_details/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_details/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_details/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_details/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="356" />
-          <entry key="py" value="1090" />
+          <entry key="py" value="1146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="356" />
-          <entry key="Python" value="1090" />
+          <entry key="Python" value="1146" />
         </counts>
       </usages-collector>
     </session>
@@ -89,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employee_details/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="e#392#420#0" expanded="true" />
               </folding>
@@ -101,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee_details/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding>
                 <element signature="e#961#1025#0" expanded="true" />
               </folding>
@@ -160,7 +166,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -174,13 +180,13 @@
         <option value="$PROJECT_DIR$/employee_details/templates/employee_details/employee_confirm_delete.html" />
         <option value="$PROJECT_DIR$/employee_details/templates/employee_details/employee_detail.html" />
         <option value="$PROJECT_DIR$/employee_details/templates/employee_details/emolyee_list.html" />
-        <option value="$PROJECT_DIR$/employee_details/urls.py" />
-        <option value="$PROJECT_DIR$/employee_details/views.py" />
         <option value="$PROJECT_DIR$/employee_details/templates/employee_details/employee_list.html" />
+        <option value="$PROJECT_DIR$/employee_details/views.py" />
+        <option value="$PROJECT_DIR$/employee_details/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="132" />
     <option name="y" value="16" />
     <option name="width" value="1400" />
@@ -364,16 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee_details/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#392#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee_details/templates/employee_details/employee_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -390,10 +386,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employee_details/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding>
             <element signature="e#961#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_details/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#392#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
